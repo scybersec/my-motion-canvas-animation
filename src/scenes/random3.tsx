@@ -15,7 +15,7 @@ export default makeScene2D(function* (view) {
           radius={5}
           width={10}
           height={10}
-          fill={'#d43c2d'}
+          fill={'#9c6cd3'}
         />
       ))}
     </Layout>,
@@ -27,7 +27,7 @@ export default makeScene2D(function* (view) {
       ...rects.map(rect =>
         all(
           rect.size.y(random.nextInt(100, 200), 0.5).to(10, 0.5),
-          rect.fill('#ED0E0E', 0.5).to('#d43c2d', 0.5),
+          rect.fill('#6a33a9', 0.5).to('#9c6cd3', 0.5),
         ),
       ),
     ),
